@@ -1,0 +1,128 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family:'Times New Roman', Times, serif;
+}
+header {
+    height:30vh;
+    width:100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    background-image: url(./assets/4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 160%;
+    object-fit: cover;
+    
+}
+ nav{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items:flex-start;
+    background-color: black;
+} 
+nav a{
+    font-size: 1rem;
+    color: white;
+    width: 29rem;
+    padding: 0.6rem;
+    font-weight: bolder;
+   text-decoration: none;
+   text-align: center;
+   display:flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+    
+}
+header h2{
+    color: white;
+    font-size: 2rem;
+    
+}
+.active{
+    background-color:yellowgreen;
+    color: black;
+}
+span{
+    color:yellowgreen;
+    font-size: 4rem;
+}
+main{
+    min-height: 50vh;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10rem;
+    
+}
+main h2{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 12rem;
+    height: 11rem;
+    border:none;
+    border-radius: 1rem 0 1rem 0;
+    box-shadow: 2px 2px 2px 0 black;
+    
+    
+}
+section img{
+    height: 70%;
+    width: 100%;
+    border-radius: 1rem 0 0 0;
+}
+section li{
+    list-style: inside;
+    padding: 1px;
+    padding-left: 1rem;
+    font-weight: lighter;
+    font-size: 10px;
+    
+}
+section h6{
+    text-align: center;
+    padding: 2px;
+}
+/* h1{
+    font-size: 11rem;
+    display: inline;
+    position: absolute;
+    right: 11rem;
+    font-weight: lighter;
+   text-align: center;
+} */
+footer{
+    height:14vh;
+    background-color:yellowgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+
+}
+footer a{
+    color: black ;
+    font-weight: lighter;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
